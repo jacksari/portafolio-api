@@ -20,7 +20,7 @@
       "required": true
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "files",
@@ -36,7 +36,16 @@
         "gatsby",
         "javascript",
         "react",
-        "html"
+        "html",
+        "vue",
+        "svelte",
+        "ux",
+        "ui",
+        "frontend",
+        "backend",
+        "nextJs",
+        "nuxtJs",
+        "Sapper"
       ],
       "required": true
     },

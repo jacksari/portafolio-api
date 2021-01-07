@@ -2,12 +2,14 @@
   "collectionName": "components_description_stack_items",
   "info": {
     "name": "stack_item",
-    "icon": "asterisk"
+    "icon": "asterisk",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -14,11 +14,8 @@
     "title": {
       "type": "string"
     },
-    "info": {
-      "type": "string"
-    },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -32,6 +29,9 @@
       "type": "component",
       "repeatable": true,
       "component": "description.stack-item"
+    },
+    "info": {
+      "type": "richtext"
     }
   }
 }
